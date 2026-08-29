@@ -60,7 +60,7 @@ If you need to manually edit classes.dex:
 
 ```bash
 # Install smali/baksmali tools
-apt update && apt install smali baksmali -y
+apt update && apt install smali -y
 
 # Decompile classes.dex to smali
 baksmali d classes.dex -o smali_out
