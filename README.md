@@ -14,8 +14,17 @@ Patches and modifications for Metasploit to enhance Android penetration testing 
 - **classes.dex** - Creates a new session every 30 seconds while the app runs
 - **Combined** - Overwhelming number of sessions with continuous new session generation
 
-## 📁 Installation & Backup
-**Important:** Before replacing, backup the original files:
+## 📁 Installation
+Clone the repository:
+
+```bash
+git clone https://github.com/pashamasr01287654800/MetaVenom-Injector.git
+cd MetaVenom-Injector
+```
+
+📁 Backup & Replace
+
+Important: Before replacing, backup the original files:
 
 ```bash
 # Backup original apk.rb
@@ -29,7 +38,7 @@ Then replace with the new files:
 
 ```bash
 # Replace apk.rb
-sudo cp MetaVenom-Injector.rb /usr/share/metasploit-framework/lib/msf/core/payload/apk.rb
+sudo cp apk.rb /usr/share/metasploit-framework/lib/msf/core/payload/apk.rb
 
 # Replace classes.dex
 sudo cp classes.dex /usr/share/metasploit-framework/vendor/bundle/ruby/3.0.0/gems/metasploit-payloads-2.0.83/data/android/apk/
@@ -88,12 +97,3 @@ If you find this useful and want to contribute, feel free to reach out! Collabor
 ---
 
 This module provides advanced injection capabilities compared to the original Metasploit APK payload handler.
-
-
-
-
-
-
-
-
-
