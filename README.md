@@ -1,7 +1,7 @@
 # MetaVenom-Injector
 
 ## 📌 Overview
-Advanced Android payload injection module for Metasploit Framework. Enhances APK backdooring with multi-point injection for higher success rates.
+Advanced Metasploit module for Android APK backdooring with multi-point injection.
 
 ## 🔧 Key Improvements
 - **Multi-point injection** - Injects payload into ALL possible hook points (Application, Activities, Services, Receivers) instead of just one
