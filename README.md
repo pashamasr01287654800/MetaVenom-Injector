@@ -1,7 +1,7 @@
 # MetaVenom-Injector
 
 ## 📌 Overview
-Advanced Metasploit module for Android APK backdooring with multi-point injection.
+Patches and modifications for Metasploit to enhance Android penetration testing experience.
 
 ## 🔧 Key Improvements
 - **Multi-point injection** - Injects payload into ALL possible hook points (Application, Activities, Services, Receivers) instead of just one
