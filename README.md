@@ -10,9 +10,9 @@ Advanced Metasploit module for Android APK backdooring with multi-point injectio
 - **Fallback methods** - Multiple injection strategies if primary entry points fail
 
 ## 💥 Dual Payload Strategy
-- **First payload (apk.rb)** - Injects into multiple hook points simultaneously, establishing multiple concurrent sessions instead of just one
-- **Second payload (classes.dex)** - Creates a new session every 30 seconds while the app is running, ensuring persistent access
-- **Combined effect** - When both are used together, you get an overwhelming number of open sessions with continuous new session generation, making it extremely difficult to disconnect
+- **apk.rb** - Injects into multiple hook points, establishing multiple concurrent sessions
+- **classes.dex** - Creates a new session every 30 seconds while the app runs
+- **Combined** - Overwhelming number of sessions with continuous new session generation
 
 ## 📁 Installation & Backup
 **Important:** Before replacing, backup the original files:
